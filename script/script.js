@@ -48,7 +48,7 @@ const quizQuestions = [
     },
 
     {
-        question: "Which is NOT progamming language?",
+        question: "Which is NOT a progamming language?",
         a: 'HTML',
         b: 'Python',
         c: 'Javascript',
