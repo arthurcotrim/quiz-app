@@ -1,41 +1,41 @@
 const quizQuestions = [
     {
-        question: "What's my name?",
-        a: 'Arthur',
-        b: 'Artur',
-        c: 'Arthu',
+        question: "What's HTML5 stand for?",
+        a: 'Hypertext Markup Language, version 5',
+        b: 'Hydrate More Low',
+        c: 'Hypertext Match Language',
         correct: 'a'
     },
 
     {
-        question: "How old is Arthur",
-        a: '15',
-        b: '20',
-        c: '18',
+        question: "What's is a VCS",
+        a: 'Virtual Case Sensitive',
+        b: 'Validation Cover Security',
+        c: 'Version Control System',
         correct: 'c'
     },
 
     {
-        question: "Which month Arthur was born?",
-        a: 'December',
-        b: 'January',
-        c: 'August',
+        question: "Who created GIT",
+        a: 'Bill Gates',
+        b: 'Linus Torvalds',
+        c: 'Shrek',
         correct: 'b'
     },
 
     {
-        question: "Which language Arthur knows more?",
+        question: "Which language is better to create an IA?",
         a: 'PHP',
-        b: 'Python',
-        c: 'Javascript',
+        b: 'Javascript',
+        c: 'Python',
         correct: 'c'
     },
 
     {
-        question: "Which language Arthur doesn't know?",
-        a: 'PHP',
-        b: 'Python',
-        c: 'Javascript',
+        question: "Which language below it's better to apply styles",
+        a: 'NodeJs',
+        b: 'CSS',
+        c: 'Kotlin',
         correct: 'b'
     },
 
@@ -44,7 +44,7 @@ const quizQuestions = [
         a: 'PHP',
         b: 'Python',
         c: 'Javascript',
-        correct: 'c'
+        correct: 'a'
     },
 
     {
@@ -56,26 +56,26 @@ const quizQuestions = [
     },
 
     {
-        question: "Do Arthur like orange juice?",
-        a: 'Yes',
-        b: 'No',
-        c: 'Only mango juice',
+        question: "What means a full stack dev?",
+        a: 'A person who can operate as well in front as back end',
+        b: 'Only know how to use nodejs',
+        c: 'Only use HTML5',
         correct: 'a'
     },
 
     {
-        question: "Do Arthur like to watch animes?",
-        a: 'Yes',
-        b: 'No',
-        c: 'Nah, what is an anime?',
-        correct: 'a'
+        question: "What KISS means (in the developer world)",
+        a: 'I do not know',
+        b: 'You aren’t going to need it',
+        c: 'Keep it simple stupid',
+        correct: 'c'
     },
 
     {
-        question: "Do Arthur is practicing exercises?",
-        a: 'Yes',
-        b: 'No',
-        c: 'Every single day',
+        question: "Clean code is conseidered...",
+        a: 'A bad practice',
+        b: 'A good practice',
+        c: 'Nothing, just avoid it',
         correct: 'b'
     },
 ]
