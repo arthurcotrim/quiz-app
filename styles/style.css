@@ -152,3 +152,38 @@ h4{
     visibility: hidden;
 }
 
+.negative{
+    background: linear-gradient(120deg, #ec7d7d
+    0%, #fa2c2cea 100%);
+
+    animation: bg-color 5s ease infinite;
+    background-size: 300% 300%;
+}
+
+.neutral{
+    background-image: linear-gradient(120deg, #587ab1 0%, #c2e9fb 100%);
+
+    animation: bg-color 5s ease infinite;
+    background-size: 300% 300%;
+}
+
+.positive{
+    background: linear-gradient(120deg, #d4fc79 0%, #1bd669 100%);
+
+    animation: bg-color 5s ease infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes bg-color{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
