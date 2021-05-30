@@ -14,6 +14,32 @@
 </head>
 
 <body>
+    <div class="quiz-container quiz">
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="a"><label id="a_text"
+                        for="a">Question</label></input>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="b"><label id="b_text"
+                        for="b">Question</label></input>
+                </li>
+                <li>
+                    <input type="radio" class="answer" name="answer" id="c"><label id="c_text"
+                        for="c">Question</label></input>
+                </li>
+            </ul>
+        </div>
+        
+        <button>Next</button>
+    </div>
+
+    <div class="final-result invisible">
+        <h2 class="feedback"></h2>
+        <h4>Your score: <small class="percent"></small></h4>
+    </div>
 
     <script src="./script/script.js"></script>
 </body>
